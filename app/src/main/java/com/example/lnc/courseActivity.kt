@@ -1,6 +1,7 @@
 package com.example.lnc
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -29,6 +30,10 @@ class courseActivity : ComponentActivity() {
         setContentView(binding.root)
 
         auth = FirebaseAuth.getInstance()
+
+        binding.satu.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=WtBF_-pLrjE&list=PLZS-MHyEIRo4Ze0bbGB1WKBSNMPzi-eWI&ab_channel=KelasTerbuka")))
+        }
 
 
 
