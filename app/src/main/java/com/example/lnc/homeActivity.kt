@@ -40,6 +40,9 @@ class homeActivity : ComponentActivity() {
 
         auth = FirebaseAuth.getInstance()
 
+        binding.imageView.setOnClickListener{
+            startActivity(Intent(this,profileActivity::class.java).putExtra("email",email))
+        }
         binding.logoCpp.setOnClickListener {
             val intent = Intent(this, courseActivity::class.java)
             startActivity(intent)

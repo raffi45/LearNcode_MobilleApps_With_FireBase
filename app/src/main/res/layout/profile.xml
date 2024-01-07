@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".registActivity">
+    tools:context=".profileActivity">
 
 
     <LinearLayout
@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="REGISTER"
+                android:text="PROFILE"
                 android:textColor="@color/biru"
                 android:textSize="32sp"
                 android:textStyle="bold" />
@@ -65,27 +65,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:alpha="0.7"
-                android:text="Email"
+                android:text="nama"
                 android:textColor="@color/biru"
                 android:textStyle="bold" />
 
-            <EditText
-                android:id="@+id/email_text"
+            <TextView
+                android:id="@+id/nama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="sdadas"
-                android:inputType="textEmailAddress"
-
-                android:textColorHint="#00FFFFFF"
+                android:text="-"
                 android:textSize="22dp" />
-
-            <View
-                android:layout_width="wrap_content"
-                android:layout_height="9dp" />
-
-            <View
-                android:layout_width="wrap_content"
-                android:layout_height="9dp" />
 
             <View
                 android:layout_width="wrap_content"
@@ -95,27 +84,44 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:alpha="0.7"
-                android:text="Password"
+                android:text="alamat"
                 android:textColor="@color/biru"
                 android:textStyle="bold" />
 
-            <EditText
-                android:id="@+id/password_text"
+            <TextView
+                android:id="@+id/alamat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="a"
-                android:inputType="textPassword"
-                android:textColorHint="#00534444"
+                android:text="-"
+                android:textSize="22dp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="9dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.7"
+                android:text="No Telp"
+                android:textColor="@color/biru"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/telp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"
                 android:textSize="22dp" />
 
             <Button
-                android:id="@+id/buttonregist"
+                android:id="@+id/buttonedit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:layout_weight="48"
                 android:background="@drawable/button_rounded"
-                android:text="regist"
+                android:text="edit profile"
                 android:textColor="#ffff"
                 android:textSize="22dp" />
 

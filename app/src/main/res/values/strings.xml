@@ -9,4 +9,6 @@
     <string name="title_activity_course">courseActivity</string>
     <string name="title_activity_java">javaActivity</string>
     <string name="title_activity_php">phpActivity</string>
+    <string name="title_activity_editprofile">editprofileActivity</string>
+    <string name="title_activity_profile">profileActivity</string>
 </resources>
