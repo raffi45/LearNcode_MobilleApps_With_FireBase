@@ -48,9 +48,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="16dp"
-                    android:text="nabilla"
                     android:textColor="#1e4368"
-                    android:textSize="35dp"
+                    android:textSize="15dp"
+                    android:text=""
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="@+id/helo"
@@ -464,50 +464,19 @@
 
 
 
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+<!--    <androidx.coordinatorlayout.widget.CoordinatorLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent">-->
 
-<!--        < com.google.android.material.bottomappbar.BottomAppBar-->
-<!--            android:id = "@+id/bottomAppBar"-->
-<!--            android:layout_width = "match_parent"-->
-<!--            android:layout_height = "wrap_content"-->
-<!--            android:layout_alignParentBottom = "true"-->
-<!--            app:menu = "@menu/bottom_nav"-->
-<!--            app:fabAlignmentMode = "center" />-->
-
-<!--        <FrameLayout-->
-<!--            android:id="@+id/frame_layout"-->
-<!--            android:layout_width="0dp"-->
-<!--            android:layout_height="0dp"-->
-<!--            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintTop_toTopOf="parent">-->
-
-<!--        </FrameLayout>-->
-
-
-<!--       <com.google.android.material.bottomnavigation.BottomNavigationView-->
-<!--           android:id="@+id/bottomNavigationView"-->
-<!--           android:layout_width="match_parent"-->
-<!--           android:layout_height="match_parent"-->
-<!--           app:layout_constraintBottom_toBottomOf="parent"-->
-<!--           app:layout_constraintEnd_toEndOf="parent"-->
-<!--           app:layout_constraintStart_toStartOf="parent"-->
-<!--           app:menu="@menu/bottom_nav"-->
-
-<!--           >-->
-
-<!--       </com.google.android.material.bottomnavigation.BottomNavigationView>-->
-<!--&lt;!&ndash;        <com.google.android.material.bottomnavigation.BottomNavigationView&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_alignParentBottom="true"&ndash;&gt;-->
-<!--&lt;!&ndash;            app:menu="@menu/bottom_nav"/>&ndash;&gt;-->
-
+<!--&lt;!&ndash;        < com.google.android.material.bottomappbar.BottomAppBar&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id = "@+id/bottomAppBar"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width = "match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height = "wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_alignParentBottom = "true"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:menu = "@menu/bottom_nav"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:fabAlignmentMode = "center" />&ndash;&gt;-->
 
 <!--&lt;!&ndash;        <FrameLayout&ndash;&gt;-->
 <!--&lt;!&ndash;            android:id="@+id/frame_layout"&ndash;&gt;-->
@@ -520,43 +489,83 @@
 
 <!--&lt;!&ndash;        </FrameLayout>&ndash;&gt;-->
 
-<!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
-<!--            android:id="@+id/bottomNavigationView"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            app:layout_constraintBottom_toBottomOf="parent"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:menu="@menu/bottom_nav">-->
 
+<!--&lt;!&ndash;        <android.support.design.widget.BottomNavigationView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="56dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_alignParentStart="true"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_alignParentBottom="true"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:menu="@menu/bottom_nav"&ndash;&gt;-->
+<!--&lt;!&ndash;            />&ndash;&gt;-->
 
-<!--&lt;!&ndash;        <com.google.android.material.bottomappbar.BottomAppBar&ndash;&gt;-->
+<!--&lt;!&ndash;        <com.google.android.material.bottomnavigation.BottomNavigationView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/bottomNavigationView"&ndash;&gt;-->
 <!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
 <!--&lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:gravity="bottom">&ndash;&gt;-->
-<!--&lt;!&ndash;            <LinearLayout&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                >&ndash;&gt;-->
-<!--&lt;!&ndash;                <TextView&ndash;&gt;-->
-<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
-<!--&lt;!&ndash;                    android:layout_height="match_parent"&ndash;&gt;-->
-<!--&lt;!&ndash;                    android:text="asasas">&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_alignParentBottom="true"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="?android:attr/windowBackground"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:menu="@menu/b_nav"&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        </com.google.android.material.bottomnavigation.BottomNavigationView>&ndash;&gt;-->
 
-<!--&lt;!&ndash;                </TextView>&ndash;&gt;-->
-<!--&lt;!&ndash;            </LinearLayout>&ndash;&gt;-->
+<!--&lt;!&ndash;       </com.google.android.material.bottomnavigation.BottomNavigationView>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <com.google.android.material.bottomnavigation.BottomNavigationView&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:layout_alignParentBottom="true"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            app:menu="@menu/bottom_nav"/>&ndash;&gt;&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;&lt;!&ndash;        <FrameLayout&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:id="@+id/frame_layout"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:layout_width="0dp"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:layout_height="0dp"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            app:layout_constraintTop_toTopOf="parent">&ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;&lt;!&ndash;        </FrameLayout>&ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.bottomnavigation.BottomNavigationView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/bottomNavigationView"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:menu="@menu/bottom_nav">&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;&lt;!&ndash;        <com.google.android.material.bottomappbar.BottomAppBar&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:gravity="bottom">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            <LinearLayout&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                >&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                <TextView&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    android:layout_height="match_parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    android:text="asasas">&ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;&lt;!&ndash;                </TextView>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            </LinearLayout>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        </com.google.android.material.bottomappbar.BottomAppBar>&ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.bottomappbar.BottomAppBar&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/bottomAppBar"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_alignParentBottom="true"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:menu="@menu/bottom_nav"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:fabAlignmentMode="center">&ndash;&gt;-->
+
 <!--&lt;!&ndash;        </com.google.android.material.bottomappbar.BottomAppBar>&ndash;&gt;-->
-
-        <com.google.android.material.bottomappbar.BottomAppBar
-            android:id="@+id/bottomAppBar"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentBottom="true"
-            app:menu="@menu/bottom_nav"
-            app:fabAlignmentMode="center">
-
-        </com.google.android.material.bottomappbar.BottomAppBar>
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+<!--    </androidx.coordinatorlayout.widget.CoordinatorLayout>-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

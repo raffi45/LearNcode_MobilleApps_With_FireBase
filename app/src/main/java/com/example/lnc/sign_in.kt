@@ -68,9 +68,19 @@ class sign_in : ComponentActivity() {
         auth.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) {
                 if (it.isSuccessful) {
+                    val email2 = binding.emailLogin.text.toString()
                     Toast.makeText(this, "Selamat datang $email", Toast.LENGTH_SHORT).show()
-                    val intent = Intent(this, homeActivity::class.java)
-                    startActivity(intent)
+//                    val intent = Intent(this, homeActivity::class.java)
+
+                    startActivity(Intent(this,homeActivity::class.java).putExtra("email",email2))
+//                        .also {
+//                        it.putExtra("username",email)
+//                        startActivity(it)
+//                    }
+
+//                    startActivity(intent)
+
+
                 } else {
                     Toast.makeText(this, "pasword/email salah ", Toast.LENGTH_SHORT).show()
                 }
