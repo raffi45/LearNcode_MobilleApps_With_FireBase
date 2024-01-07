@@ -9,6 +9,8 @@ import android.widget.TextView
 import androidx.activity.ComponentActivity
 import com.example.lnc.databinding.HomeBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 
 
 class homeActivity : ComponentActivity() {
@@ -16,32 +18,34 @@ class homeActivity : ComponentActivity() {
     lateinit var binding: HomeBinding
     lateinit var auth : FirebaseAuth
     lateinit var textemail: TextView
-
+    lateinit var dbref: DatabaseReference
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
-
-
-//        val sessionuser = intent.getStringExtra("username")
-//        val textView = binding.textView2.apply {
-//            text = sessionuser
-//        }
-
-
         binding = HomeBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        dbref = FirebaseDatabase.getInstance().getReference("user")
+
         textemail = binding.textView2
         val email = intent.getStringExtra("email")
-        textemail.text = email
 
+        val send : String = email.toString()
+
+        val getnama  = intent.getStringExtra("nama")
+        val nama : String = getnama.toString()
+
+        if (getnama.isNullOrEmpty()){
+            binding.textView2.text = send
+        }else{
+                binding.textView2.text = nama
+        }
 
         auth = FirebaseAuth.getInstance()
 
         binding.imageView.setOnClickListener{
-            startActivity(Intent(this,profileActivity::class.java).putExtra("email",email))
+            startActivity(Intent(this,editprofileActivity::class.java).putExtra("email",send))
         }
         binding.logoCpp.setOnClickListener {
             val intent = Intent(this, courseActivity::class.java)

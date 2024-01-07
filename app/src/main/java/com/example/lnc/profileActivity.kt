@@ -23,9 +23,6 @@ class profileActivity : ComponentActivity() {
 
     lateinit var binding: ProfileBinding
     lateinit var dbref: DatabaseReference
-    lateinit var nama: TextView
-    lateinit var alamat: TextView
-    lateinit var telp: TextView
 
 
 
@@ -36,11 +33,10 @@ class profileActivity : ComponentActivity() {
 
 
         dbref = FirebaseDatabase.getInstance().getReference("user")
-        val getemail  = intent.getStringExtra("email")
-        val email : String = getemail.toString()
+        val getnama  = intent.getStringExtra("nama")
+        val nama : String = getnama.toString()
 
-
-            dbref.child(email).get().addOnSuccessListener {
+        dbref.child(nama).get().addOnSuccessListener {
 
                 if (it.exists()) {
 
@@ -58,7 +54,7 @@ class profileActivity : ComponentActivity() {
 
 
         binding.buttonedit.setOnClickListener{
-            startActivity(Intent(this,editprofileActivity::class.java).putExtra("email",getemail))
+            startActivity(Intent(this,homeActivity::class.java).putExtra("nama",nama))
         }
 
 

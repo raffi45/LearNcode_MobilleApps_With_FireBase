@@ -1,5 +1,6 @@
 package com.example.lnc
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
@@ -35,6 +36,8 @@ class editprofileActivity : ComponentActivity() {
             val alamat = binding.alamat.text.toString()
             val telp = binding.telp.text.toString()
 
+            val send : String = nama.toString()
+
             if (nama.isEmpty()) {
                 binding.nama.error = "Email Harus Diisi"
                 binding.nama.requestFocus()
@@ -53,13 +56,15 @@ class editprofileActivity : ComponentActivity() {
 
             dbref = FirebaseDatabase.getInstance().getReference("user")
             val User = User(nama,alamat,telp)
-            dbref.child(email).setValue(User).addOnSuccessListener {
+            dbref.child(nama).setValue(User).addOnSuccessListener {
 
                 binding.nama.text.clear()
                 binding.alamat.text.clear()
                 binding.telp.text.clear()
 
                 Toast.makeText(this,"Successfully Saved",Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this,profileActivity::class.java).putExtra("nama",send))
+
 
             }.addOnFailureListener{
 

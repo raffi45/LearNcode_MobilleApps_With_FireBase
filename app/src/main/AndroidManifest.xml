@@ -38,11 +38,6 @@
             android:label="@string/title_activity_course"
             android:theme="@style/Theme.Lnc" />
         <activity
-            android:name=".ui.theme.course1Activity"
-            android:exported="false"
-            android:label="@string/title_activity_course1"
-            android:theme="@style/Theme.Lnc" />
-        <activity
             android:name=".homeActivity"
             android:exported="false"
             android:label="@string/title_activity_home"
