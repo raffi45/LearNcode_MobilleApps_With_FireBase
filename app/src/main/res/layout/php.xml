@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".phpActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:background="#2A5DDF">
+
+                <ImageView
+                    android:id="@+id/course_cpp"
+                    android:layout_width="95dp"
+                    android:layout_height="86dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@drawable/background_3"
+                    android:src="@drawable/php"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.487" />
+
+                <TextView
+                    android:id="@+id/txtcourse_cpp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Bahasa Pemrograman PHP"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/course_cpp"
+                    app:layout_constraintTop_toTopOf="@+id/course_cpp" />
+
+                <TextView
+                    android:id="@+id/ket_cpp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="5 Video"
+                    android:textColor="#F6F0F0"
+                    app:layout_constraintStart_toEndOf="@+id/course_cpp"
+                    app:layout_constraintTop_toBottomOf="@+id/txtcourse_cpp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_2"
+                android:clickable="false"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="1dp">
+
+                <ImageView
+                    android:id="@+id/tumb1"
+                    android:layout_width="163dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/php_1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/num_cpp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="#1"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toEndOf="@+id/tumb1"
+                    app:layout_constraintTop_toTopOf="@+id/tumb1" />
+
+                <TextView
+                    android:id="@+id/title_php1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Introduction"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic"
+                    app:layout_constraintStart_toEndOf="@+id/tumb1"
+                    app:layout_constraintTop_toBottomOf="@+id/num_cpp1" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_2"
+                android:clickable="false"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="1dp">
+
+                <ImageView
+                    android:id="@+id/tumb2"
+                    android:layout_width="163dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/php_2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/num_cpp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="#2"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toEndOf="@+id/tumb2"
+                    app:layout_constraintTop_toTopOf="@+id/tumb2" />
+
+                <TextView
+                    android:id="@+id/title_php2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Variable"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic"
+                    app:layout_constraintStart_toEndOf="@+id/tumb2"
+                    app:layout_constraintTop_toBottomOf="@+id/num_cpp2" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_2"
+                android:clickable="false"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="1dp">
+
+                <ImageView
+                    android:id="@+id/tumb3"
+                    android:layout_width="163dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/php_3"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/num_cpp3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="#3"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toEndOf="@+id/tumb3"
+                    app:layout_constraintTop_toTopOf="@+id/tumb3" />
+
+                <TextView
+                    android:id="@+id/title_cpp3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Operator Aritmatika"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic"
+                    app:layout_constraintStart_toEndOf="@+id/tumb3"
+                    app:layout_constraintTop_toBottomOf="@+id/num_cpp3" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_2"
+                android:clickable="false">
+
+                <ImageView
+                    android:id="@+id/tumb4"
+                    android:layout_width="163dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/php_4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/num_cpp4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="#4"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toEndOf="@+id/tumb4"
+                    app:layout_constraintTop_toTopOf="@+id/tumb4" />
+
+                <TextView
+                    android:id="@+id/title_php4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="If Else"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic"
+                    app:layout_constraintStart_toEndOf="@+id/tumb4"
+                    app:layout_constraintTop_toBottomOf="@+id/num_cpp4" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_2"
+                android:clickable="false"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="1dp">
+
+                <ImageView
+                    android:id="@+id/tumb5"
+                    android:layout_width="163dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/php_5"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/num_cpp5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="#5"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toEndOf="@+id/tumb5"
+                    app:layout_constraintTop_toTopOf="@+id/tumb5" />
+
+                <TextView
+                    android:id="@+id/title_php5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Switch Case"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic"
+                    app:layout_constraintStart_toEndOf="@+id/tumb5"
+                    app:layout_constraintTop_toBottomOf="@+id/num_cpp5" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@id/scrollView3">
+
+<!--        <com.google.android.material.bottomappbar.BottomAppBar-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_gravity="bottom"-->
+<!--            android:backgroundTint="#f8f8f8">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="0.25"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/btn_home"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="35dp"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        app:srcCompat="@drawable/home" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txthome"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Home"-->
+<!--                        android:textAlignment="center" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="0.25"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/btn_article"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="35dp"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        app:srcCompat="@drawable/news" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtarticle"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Article"-->
+<!--                        android:textAlignment="center" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="0.25"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/btn_profil"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="35dp"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        app:srcCompat="@drawable/icon1" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtprofil"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Profil"-->
+<!--                        android:textAlignment="center" />-->
+<!--                </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+
+<!--        </com.google.android.material.bottomappbar.BottomAppBar>-->
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

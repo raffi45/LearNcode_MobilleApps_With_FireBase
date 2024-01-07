@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LearnNCode</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_sign_in">sign_in</string>
+    <string name="title_activity_regist">registActivity</string>
+    <string name="title_activity_home">homeActivity</string>
+    <string name="title_activity_course1">course1Activity</string>
+    <string name="title_activity_course">courseActivity</string>
+    <string name="title_activity_java">javaActivity</string>
+    <string name="title_activity_php">phpActivity</string>
+</resources>

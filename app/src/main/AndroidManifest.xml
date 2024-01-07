@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/bulatputih"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bulatputih"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lnc"
+        tools:targetApi="31">
+        <activity
+            android:name=".phpActivity"
+            android:exported="false"
+            android:label="@string/title_activity_php"
+            android:theme="@style/Theme.Lnc" />
+        <activity
+            android:name=".javaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_java"
+            android:theme="@style/Theme.Lnc" />
+        <activity
+            android:name=".courseActivity"
+            android:exported="false"
+            android:label="@string/title_activity_course"
+            android:theme="@style/Theme.Lnc" />
+        <activity
+            android:name=".ui.theme.course1Activity"
+            android:exported="false"
+            android:label="@string/title_activity_course1"
+            android:theme="@style/Theme.Lnc" />
+        <activity
+            android:name=".homeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.Lnc" />
+        <activity
+            android:name=".registActivity"
+            android:exported="false"
+            android:label="@string/title_activity_regist"
+            android:theme="@style/Theme.Lnc" />
+        <activity
+            android:name=".sign_in"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Lnc">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

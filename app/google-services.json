@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "73503577882",
+    "project_id": "projekmoprog",
+    "storage_bucket": "projekmoprog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73503577882:android:32115be8b65c389eba3ea3",
+        "android_client_info": {
+          "package_name": "com.example.lnc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjXrHNe81FMfJxLz0kVrUvVjiJwWyhCYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
