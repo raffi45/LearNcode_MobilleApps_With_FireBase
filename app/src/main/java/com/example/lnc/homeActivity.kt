@@ -11,6 +11,10 @@ import com.example.lnc.databinding.HomeBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import com.denzcoskun.imageslider.ImageSlider
+import com.denzcoskun.imageslider.constants.ScaleTypes
+import com.denzcoskun.imageslider.models.SlideModel
+
 
 
 class homeActivity : ComponentActivity() {
@@ -41,6 +45,19 @@ class homeActivity : ComponentActivity() {
         }else{
                 binding.textView2.text = nama
         }
+
+
+
+        val imageSlider = binding.imgSlider
+        val imageList = ArrayList<SlideModel>();
+
+        imageList.add(SlideModel(, ScaleTypes.FIT));
+        imageList.add(SlideModel(R.drawable.slides3, ScaleTypes.FIT));
+        imageList.add(SlideModel(R.drawable.slides4, ScaleTypes.FIT));
+        imageList.add(SlideModel(R.drawable.slides5, ScaleTypes.FIT));
+        imageList.add(SlideModel(R.drawable.slides1, ScaleTypes.FIT));
+
+        imageSlider.setImageList(imageList, ScaleTypes.FIT);
 
         auth = FirebaseAuth.getInstance()
 

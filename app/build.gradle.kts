@@ -71,7 +71,7 @@ dependencies {
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("com.google.android.material:material:1.1.0")
+    implementation("com.google.android.material:material:1.2.0")
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
@@ -112,5 +112,16 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
 
 
+    //Retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.4.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.2.0")
+
+    //Date/Time
+    implementation ("org.ocpsoft.prettytime:prettytime:4.0.1.Final")
+
+    //Picaso for image url
+    implementation ("com.squareup.picasso:picasso:2.5.0")
+
+    implementation("com.github.denzcoskun:ImageSlideshow:0.1.0")
 
 }
