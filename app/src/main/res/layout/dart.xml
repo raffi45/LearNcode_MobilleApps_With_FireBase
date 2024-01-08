@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".courseActivity"
+    tools:context=".dartActivity"
     >
 
     <ScrollView
@@ -30,7 +30,7 @@
                     android:layout_height="86dp"
                     android:layout_marginStart="16dp"
                     android:background="@drawable/background_3"
-                    android:src="@drawable/cpp1"
+                    android:src="@drawable/dart"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -42,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
-                    android:text="Bahasa Pemrograman C++"
+                    android:text="Bahasa Pemrograman Dart"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -84,7 +84,7 @@
                     android:layout_width="163dp"
                     android:layout_height="90dp"
                     android:layout_marginStart="24dp"
-                    android:src="@drawable/cpp_1"
+                    android:src="@drawable/dt1"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -106,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="Apa itu C++?"
+                    android:text="Pengenalan Dart"
                     android:textSize="16sp"
                     android:textStyle="bold|italic"
                     app:layout_constraintStart_toEndOf="@+id/tumb1"
@@ -130,7 +130,7 @@
                     android:layout_width="163dp"
                     android:layout_height="90dp"
                     android:layout_marginStart="24dp"
-                    android:src="@drawable/cpp_2"
+                    android:src="@drawable/dt2"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -152,7 +152,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="Cara Kerja C++"
+                    android:text="Instalasi"
                     android:textSize="16sp"
                     android:textStyle="bold|italic"
                     app:layout_constraintStart_toEndOf="@+id/tumb2"
@@ -177,7 +177,7 @@
                     android:layout_width="163dp"
                     android:layout_height="90dp"
                     android:layout_marginStart="24dp"
-                    android:src="@drawable/cpp_3"
+                    android:src="@drawable/dt3"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -199,7 +199,7 @@
                     android:layout_height="22dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="Program dan Computer"
+                    android:text="Membuat Projek Baru"
                     android:textSize="16sp"
                     android:textStyle="bold|italic"
                     app:layout_constraintStart_toEndOf="@+id/tumb3"
@@ -222,7 +222,7 @@
                     android:layout_width="163dp"
                     android:layout_height="90dp"
                     android:layout_marginStart="24dp"
-                    android:src="@drawable/cpp_4"
+                    android:src="@drawable/dt4"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -244,7 +244,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="Preprocces Compile"
+                    android:text="Mengenal Koment"
                     android:textSize="16sp"
                     android:textStyle="bold|italic"
                     app:layout_constraintStart_toEndOf="@+id/tumb4"
@@ -269,7 +269,7 @@
                     android:layout_width="163dp"
                     android:layout_height="90dp"
                     android:layout_marginStart="24dp"
-                    android:src="@drawable/cpp_5"
+                    android:src="@drawable/dt5"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -291,7 +291,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="Review dan Recap"
+                    android:text="Variabel pada Dart"
                     android:textSize="16sp"
                     android:textStyle="bold|italic"
                     app:layout_constraintStart_toEndOf="@+id/tumb5"
@@ -311,81 +311,81 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="@id/scrollView3">
-<!--        <com.google.android.material.bottomappbar.BottomAppBar-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="60dp"-->
-<!--            android:layout_gravity="bottom"-->
-<!--            android:backgroundTint="#f8f8f8">-->
+        <!--        <com.google.android.material.bottomappbar.BottomAppBar-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="60dp"-->
+        <!--            android:layout_gravity="bottom"-->
+        <!--            android:backgroundTint="#f8f8f8">-->
 
-<!--            <LinearLayout-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent">-->
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent">-->
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:layout_weight="0.25"-->
-<!--                    android:orientation="vertical">-->
+        <!--                <LinearLayout-->
+        <!--                    android:layout_width="0dp"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:layout_weight="0.25"-->
+        <!--                    android:orientation="vertical">-->
 
-<!--                    <ImageView-->
-<!--                        android:id="@+id/btn_home"-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="35dp"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        app:srcCompat="@drawable/home" />-->
+        <!--                    <ImageView-->
+        <!--                        android:id="@+id/btn_home"-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="35dp"-->
+        <!--                        android:layout_marginTop="5dp"-->
+        <!--                        app:srcCompat="@drawable/home" />-->
 
-<!--                    <TextView-->
-<!--                        android:id="@+id/txthome"-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:text="Home"-->
-<!--                        android:textAlignment="center" />-->
-<!--                </LinearLayout>-->
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/txthome"-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:text="Home"-->
+        <!--                        android:textAlignment="center" />-->
+        <!--                </LinearLayout>-->
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:layout_weight="0.25"-->
-<!--                    android:orientation="vertical">-->
+        <!--                <LinearLayout-->
+        <!--                    android:layout_width="0dp"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:layout_weight="0.25"-->
+        <!--                    android:orientation="vertical">-->
 
-<!--                    <ImageView-->
-<!--                        android:id="@+id/btn_article"-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="35dp"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        app:srcCompat="@drawable/news" />-->
+        <!--                    <ImageView-->
+        <!--                        android:id="@+id/btn_article"-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="35dp"-->
+        <!--                        android:layout_marginTop="5dp"-->
+        <!--                        app:srcCompat="@drawable/news" />-->
 
-<!--                    <TextView-->
-<!--                        android:id="@+id/txtarticle"-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:text="Article"-->
-<!--                        android:textAlignment="center" />-->
-<!--                </LinearLayout>-->
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/txtarticle"-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:text="Article"-->
+        <!--                        android:textAlignment="center" />-->
+        <!--                </LinearLayout>-->
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_weight="0.25"-->
-<!--                    android:orientation="vertical">-->
+        <!--                <LinearLayout-->
+        <!--                    android:layout_width="0dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_weight="0.25"-->
+        <!--                    android:orientation="vertical">-->
 
-<!--                    <ImageView-->
-<!--                        android:id="@+id/btn_profil"-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="35dp"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        app:srcCompat="@drawable/icon1" />-->
+        <!--                    <ImageView-->
+        <!--                        android:id="@+id/btn_profil"-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="35dp"-->
+        <!--                        android:layout_marginTop="5dp"-->
+        <!--                        app:srcCompat="@drawable/icon1" />-->
 
-<!--                    <TextView-->
-<!--                        android:id="@+id/txtprofil"-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:text="Profil"-->
-<!--                        android:textAlignment="center" />-->
-<!--                </LinearLayout>-->
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/txtprofil"-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:text="Profil"-->
+        <!--                        android:textAlignment="center" />-->
+        <!--                </LinearLayout>-->
 
-<!--            </LinearLayout>-->
+        <!--            </LinearLayout>-->
 
-<!--        </com.google.android.material.bottomappbar.BottomAppBar>-->
+        <!--        </com.google.android.material.bottomappbar.BottomAppBar>-->
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

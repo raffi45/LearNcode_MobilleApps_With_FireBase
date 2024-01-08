@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".courseActivity"
-    >
+    tools:context=".sqlActivity">
 
     <ScrollView
         android:id="@+id/scrollView3"
@@ -26,15 +25,15 @@
 
                 <ImageView
                     android:id="@+id/course_cpp"
-                    android:layout_width="95dp"
-                    android:layout_height="86dp"
-                    android:layout_marginStart="16dp"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:layout_marginStart="32dp"
                     android:background="@drawable/background_3"
-                    android:src="@drawable/cpp1"
+                    android:src="@drawable/sql"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.487" />
+                    app:layout_constraintVertical_bias="0.68" />
 
                 <TextView
                     android:id="@+id/txtcourse_cpp"
@@ -42,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
-                    android:text="Bahasa Pemrograman C++"
+                    android:text="Bahasa Pemrograman SQL"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -84,7 +83,7 @@
                     android:layout_width="163dp"
                     android:layout_height="90dp"
                     android:layout_marginStart="24dp"
-                    android:src="@drawable/cpp_1"
+                    android:src="@drawable/hqdefault"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -95,7 +94,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="#1"
+                    android:text="#0"
                     android:textSize="20sp"
                     app:layout_constraintStart_toEndOf="@+id/tumb1"
                     app:layout_constraintTop_toTopOf="@+id/tumb1" />
@@ -106,7 +105,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="Apa itu C++?"
+                    android:text="Introduction"
                     android:textSize="16sp"
                     android:textStyle="bold|italic"
                     app:layout_constraintStart_toEndOf="@+id/tumb1"
@@ -130,7 +129,7 @@
                     android:layout_width="163dp"
                     android:layout_height="90dp"
                     android:layout_marginStart="24dp"
-                    android:src="@drawable/cpp_2"
+                    android:src="@drawable/sql1"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -141,7 +140,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="#2"
+                    android:text="#1"
                     android:textSize="20sp"
                     app:layout_constraintStart_toEndOf="@+id/tumb2"
                     app:layout_constraintTop_toTopOf="@+id/tumb2" />
@@ -152,7 +151,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="Cara Kerja C++"
+                    android:text="query"
                     android:textSize="16sp"
                     android:textStyle="bold|italic"
                     app:layout_constraintStart_toEndOf="@+id/tumb2"
@@ -177,7 +176,7 @@
                     android:layout_width="163dp"
                     android:layout_height="90dp"
                     android:layout_marginStart="24dp"
-                    android:src="@drawable/cpp_3"
+                    android:src="@drawable/sql2"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -188,7 +187,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="#3"
+                    android:text="#2"
                     android:textSize="20sp"
                     app:layout_constraintStart_toEndOf="@+id/tumb3"
                     app:layout_constraintTop_toTopOf="@+id/tumb3" />
@@ -199,7 +198,7 @@
                     android:layout_height="22dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="Program dan Computer"
+                    android:text="CRETE AND DROP"
                     android:textSize="16sp"
                     android:textStyle="bold|italic"
                     app:layout_constraintStart_toEndOf="@+id/tumb3"
@@ -222,7 +221,7 @@
                     android:layout_width="163dp"
                     android:layout_height="90dp"
                     android:layout_marginStart="24dp"
-                    android:src="@drawable/cpp_4"
+                    android:src="@drawable/sql3"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -233,7 +232,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="#4"
+                    android:text="#3"
                     android:textSize="20sp"
                     app:layout_constraintStart_toEndOf="@+id/tumb4"
                     app:layout_constraintTop_toTopOf="@+id/tumb4" />
@@ -244,7 +243,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="Preprocces Compile"
+                    android:text="TABEL"
                     android:textSize="16sp"
                     android:textStyle="bold|italic"
                     app:layout_constraintStart_toEndOf="@+id/tumb4"
@@ -269,7 +268,7 @@
                     android:layout_width="163dp"
                     android:layout_height="90dp"
                     android:layout_marginStart="24dp"
-                    android:src="@drawable/cpp_5"
+                    android:src="@drawable/sql5"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -280,7 +279,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="#5"
+                    android:text="#4"
                     android:textSize="20sp"
                     app:layout_constraintStart_toEndOf="@+id/tumb5"
                     app:layout_constraintTop_toTopOf="@+id/tumb5" />
@@ -291,7 +290,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="Review dan Recap"
+                    android:text="TABEL"
                     android:textSize="16sp"
                     android:textStyle="bold|italic"
                     app:layout_constraintStart_toEndOf="@+id/tumb5"
@@ -311,81 +310,82 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="@id/scrollView3">
-<!--        <com.google.android.material.bottomappbar.BottomAppBar-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="60dp"-->
-<!--            android:layout_gravity="bottom"-->
-<!--            android:backgroundTint="#f8f8f8">-->
 
-<!--            <LinearLayout-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent">-->
+        <!--        <com.google.android.material.bottomappbar.BottomAppBar-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="60dp"-->
+        <!--            android:layout_gravity="bottom"-->
+        <!--            android:backgroundTint="#f8f8f8">-->
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:layout_weight="0.25"-->
-<!--                    android:orientation="vertical">-->
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent">-->
 
-<!--                    <ImageView-->
-<!--                        android:id="@+id/btn_home"-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="35dp"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        app:srcCompat="@drawable/home" />-->
+        <!--                <LinearLayout-->
+        <!--                    android:layout_width="0dp"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:layout_weight="0.25"-->
+        <!--                    android:orientation="vertical">-->
 
-<!--                    <TextView-->
-<!--                        android:id="@+id/txthome"-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:text="Home"-->
-<!--                        android:textAlignment="center" />-->
-<!--                </LinearLayout>-->
+        <!--                    <ImageView-->
+        <!--                        android:id="@+id/btn_home"-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="35dp"-->
+        <!--                        android:layout_marginTop="5dp"-->
+        <!--                        app:srcCompat="@drawable/home" />-->
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:layout_weight="0.25"-->
-<!--                    android:orientation="vertical">-->
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/txthome"-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:text="Home"-->
+        <!--                        android:textAlignment="center" />-->
+        <!--                </LinearLayout>-->
 
-<!--                    <ImageView-->
-<!--                        android:id="@+id/btn_article"-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="35dp"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        app:srcCompat="@drawable/news" />-->
+        <!--                <LinearLayout-->
+        <!--                    android:layout_width="0dp"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:layout_weight="0.25"-->
+        <!--                    android:orientation="vertical">-->
 
-<!--                    <TextView-->
-<!--                        android:id="@+id/txtarticle"-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:text="Article"-->
-<!--                        android:textAlignment="center" />-->
-<!--                </LinearLayout>-->
+        <!--                    <ImageView-->
+        <!--                        android:id="@+id/btn_article"-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="35dp"-->
+        <!--                        android:layout_marginTop="5dp"-->
+        <!--                        app:srcCompat="@drawable/news" />-->
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="0dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_weight="0.25"-->
-<!--                    android:orientation="vertical">-->
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/txtarticle"-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:text="Article"-->
+        <!--                        android:textAlignment="center" />-->
+        <!--                </LinearLayout>-->
 
-<!--                    <ImageView-->
-<!--                        android:id="@+id/btn_profil"-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="35dp"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        app:srcCompat="@drawable/icon1" />-->
+        <!--                <LinearLayout-->
+        <!--                    android:layout_width="0dp"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_weight="0.25"-->
+        <!--                    android:orientation="vertical">-->
 
-<!--                    <TextView-->
-<!--                        android:id="@+id/txtprofil"-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:text="Profil"-->
-<!--                        android:textAlignment="center" />-->
-<!--                </LinearLayout>-->
+        <!--                    <ImageView-->
+        <!--                        android:id="@+id/btn_profil"-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="35dp"-->
+        <!--                        android:layout_marginTop="5dp"-->
+        <!--                        app:srcCompat="@drawable/icon1" />-->
 
-<!--            </LinearLayout>-->
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/txtprofil"-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:text="Profil"-->
+        <!--                        android:textAlignment="center" />-->
+        <!--                </LinearLayout>-->
 
-<!--        </com.google.android.material.bottomappbar.BottomAppBar>-->
+        <!--            </LinearLayout>-->
+
+        <!--        </com.google.android.material.bottomappbar.BottomAppBar>-->
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

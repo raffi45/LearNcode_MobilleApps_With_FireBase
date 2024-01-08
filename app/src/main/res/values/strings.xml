@@ -11,4 +11,9 @@
     <string name="title_activity_php">phpActivity</string>
     <string name="title_activity_editprofile">editprofileActivity</string>
     <string name="title_activity_profile">profileActivity</string>
+    <string name="title_activity_sql">sqlActivity</string>
+    <string name="title_activity_python">pythonActivity</string>
+    <string name="title_activity_kotlin">kotlinActivity</string>
+    <string name="title_activity_dart">dartActivity</string>
+    <string name="title_activity_cc">ccActivity</string>
 </resources>

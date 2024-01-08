@@ -13,17 +13,18 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.lnc.databinding.Course1Binding
-import com.example.lnc.databinding.PhpBinding
+
+import com.example.lnc.databinding.PythonBinding
 import com.example.lnc.ui.theme.LncTheme
 import com.google.firebase.auth.FirebaseAuth
 
-class phpActivity : ComponentActivity() {
+class pythonActivity : ComponentActivity() {
 
-    lateinit var binding: PhpBinding
+    lateinit var binding: PythonBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        binding = PhpBinding.inflate(layoutInflater)
+        binding = PythonBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
@@ -31,7 +32,7 @@ class phpActivity : ComponentActivity() {
             startActivity(
                 Intent(
                     Intent.ACTION_VIEW,
-                    Uri.parse("https://www.youtube.com/watch?v=ieqLoRQxnK4&list=PLIan8aHxsPj2XZPXJOEBz1sdcw1UvM9Rq&ab_channel=WahidevAcademy")
+                    Uri.parse("https://www.youtube.com/watch?v=iA8lLwmtKQM&list=RDCMUCnrZ-UFSzeMSxKx_OHtwKsQ&index=1")
                 )
             )
         }
@@ -40,7 +41,7 @@ class phpActivity : ComponentActivity() {
             startActivity(
                 Intent(
                     Intent.ACTION_VIEW,
-                    Uri.parse("https://www.youtube.com/watch?v=xmdAQWG9GJQ&list=PLIan8aHxsPj2XZPXJOEBz1sdcw1UvM9Rq&index=2&pp=iAQB")
+                    Uri.parse("https://www.youtube.com/watch?v=xETkm9H6aaY&list=RDCMUCnrZ-UFSzeMSxKx_OHtwKsQ&index=2")
                 )
             )
         }
@@ -49,7 +50,7 @@ class phpActivity : ComponentActivity() {
             startActivity(
                 Intent(
                     Intent.ACTION_VIEW,
-                    Uri.parse("https://www.youtube.com/watch?v=SiF_CuGfXYQ&list=PLIan8aHxsPj2XZPXJOEBz1sdcw1UvM9Rq&index=3&pp=iAQB")
+                    Uri.parse("https://www.youtube.com/watch?v=-auWrbiaoGc&list=RDCMUCnrZ-UFSzeMSxKx_OHtwKsQ&index=3")
                 )
             )
         }
@@ -58,7 +59,7 @@ class phpActivity : ComponentActivity() {
             startActivity(
                 Intent(
                     Intent.ACTION_VIEW,
-                    Uri.parse("https://www.youtube.com/watch?v=VbJeWqJKjLQ&list=PLIan8aHxsPj2XZPXJOEBz1sdcw1UvM9Rq&index=4&pp=iAQB")
+                    Uri.parse("https://www.youtube.com/watch?v=gxmTFXfrMzk&list=RDCMUCnrZ-UFSzeMSxKx_OHtwKsQ&index=15")
                 )
             )
         }
@@ -67,7 +68,7 @@ class phpActivity : ComponentActivity() {
             startActivity(
                 Intent(
                     Intent.ACTION_VIEW,
-                    Uri.parse("https://www.youtube.com/watch?v=eDLqDNv81D4&list=PLIan8aHxsPj2XZPXJOEBz1sdcw1UvM9Rq&index=5&pp=iAQB")
+                    Uri.parse("https://www.youtube.com/watch?v=b3X0CH98Y9g&list=RDCMUCnrZ-UFSzeMSxKx_OHtwKsQ&index=4")
                 )
             )
         }

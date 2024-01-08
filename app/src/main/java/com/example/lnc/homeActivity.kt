@@ -61,6 +61,32 @@ class homeActivity : ComponentActivity() {
             startActivity(intent)
         }
 
+        binding.python.setOnClickListener {
+            val intent = Intent(this, pythonActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.kotlin.setOnClickListener {
+            val intent = Intent(this, kotlinActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.dart.setOnClickListener {
+            val intent = Intent(this, dartActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.sql.setOnClickListener {
+            val intent = Intent(this, sqlActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.csharp.setOnClickListener {
+            val intent = Intent(this, ccActivity::class.java)
+            startActivity(intent)
+        }
+
+
 
 }}
 

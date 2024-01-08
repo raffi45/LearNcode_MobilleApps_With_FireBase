@@ -67,6 +67,7 @@
                 android:orientation="horizontal"></LinearLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/satu"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="20dp"
@@ -112,6 +113,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/dua"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="20dp"
@@ -158,6 +160,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/tiga"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="20dp"
@@ -203,6 +206,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/empat"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="20dp"
@@ -248,6 +252,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/lima"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="20dp"

@@ -12,38 +12,39 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.lnc.databinding.DartBinding
 import com.example.lnc.databinding.JavaBinding
 import com.example.lnc.ui.theme.LncTheme
 import com.google.firebase.auth.FirebaseAuth
 
-class javaActivity : ComponentActivity() {
+class dartActivity : ComponentActivity() {
 
-    lateinit var binding: JavaBinding
+    lateinit var binding: DartBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        binding = JavaBinding.inflate(layoutInflater)
+        binding = DartBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
         binding.satu.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=uHyfQV0kbgo&list=PLZS-MHyEIRo51w0Hmqi0C8h2KWNzDfo6F&index=1&pp=iAQB")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=Y1rP885vfH0&list=PLe8n__MJ2In6TjMMRTscFBAsul89E-bDX&index=1&pp=iAQB")))
         }
 
         binding.dua.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=OrgFwUl2tzQ&list=PLZS-MHyEIRo51w0Hmqi0C8h2KWNzDfo6F&index=2&pp=iAQB")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=Bv9iW8xBW30&list=PLe8n__MJ2In6TjMMRTscFBAsul89E-bDX&index=2&pp=iAQB")))
         }
 
         binding.tiga.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=-09UiNKwpok&list=PLZS-MHyEIRo51w0Hmqi0C8h2KWNzDfo6F&index=3&pp=iAQB")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=RE8VGr9N0UI&list=PLe8n__MJ2In6TjMMRTscFBAsul89E-bDX&index=5&pp=iAQB")))
         }
 
         binding.empat.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=B1cDwfxs1VM&list=PLZS-MHyEIRo51w0Hmqi0C8h2KWNzDfo6F&index=4&pp=iAQB")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=OyK054hYIMY&list=PLe8n__MJ2In6TjMMRTscFBAsul89E-bDX&index=6&pp=iAQB")))
         }
 
         binding.lima.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=LwWzmEIibwM&list=PLZS-MHyEIRo51w0Hmqi0C8h2KWNzDfo6F&index=5&pp=iAQB")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=KueFkBwMPaM&list=PLe8n__MJ2In6TjMMRTscFBAsul89E-bDX&index=7&pp=iAQB")))
         }
     }
 }

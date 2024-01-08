@@ -13,6 +13,31 @@
         android:theme="@style/Theme.Lnc"
         tools:targetApi="31">
         <activity
+            android:name=".ccActivity"
+            android:exported="false"
+            android:label="@string/title_activity_cc"
+            android:theme="@style/Theme.Lnc" />
+        <activity
+            android:name=".dartActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dart"
+            android:theme="@style/Theme.Lnc" />
+        <activity
+            android:name=".kotlinActivity"
+            android:exported="false"
+            android:label="@string/title_activity_kotlin"
+            android:theme="@style/Theme.Lnc" />
+        <activity
+            android:name=".pythonActivity"
+            android:exported="false"
+            android:label="@string/title_activity_python"
+            android:theme="@style/Theme.Lnc" />
+        <activity
+            android:name=".sqlActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sql"
+            android:theme="@style/Theme.Lnc" />
+        <activity
             android:name=".profileActivity"
             android:exported="false"
             android:label="@string/title_activity_profile"
