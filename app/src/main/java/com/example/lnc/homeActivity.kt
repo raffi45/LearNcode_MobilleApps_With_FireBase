@@ -1,6 +1,6 @@
 package com.example.lnc
 
-import android.R
+//import android.R
 import android.R.attr.text
 import android.content.Intent
 import android.os.Bundle
@@ -51,7 +51,8 @@ class homeActivity : ComponentActivity() {
         val imageSlider = binding.imgSlider
         val imageList = ArrayList<SlideModel>();
 
-        imageList.add(SlideModel(, ScaleTypes.FIT));
+
+        imageList.add(SlideModel(R.drawable.slides2, ScaleTypes.FIT));
         imageList.add(SlideModel(R.drawable.slides3, ScaleTypes.FIT));
         imageList.add(SlideModel(R.drawable.slides4, ScaleTypes.FIT));
         imageList.add(SlideModel(R.drawable.slides5, ScaleTypes.FIT));

@@ -46,6 +46,10 @@ class ccActivity : ComponentActivity() {
         binding.lima.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=vQ_LGR--QuQ&list=PLCDGzSRUHf-Gvhnt6fBH0fUtv32Id6xx_&index=7&pp=iAQB")))
         }
+
+        binding.btnHome.setOnClickListener{
+            startActivity(Intent(this,homeActivity::class.java))
+        }
     }
 }
 
