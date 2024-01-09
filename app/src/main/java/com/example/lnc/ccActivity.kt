@@ -37,6 +37,9 @@ class ccActivity : ComponentActivity() {
         binding.btnProfil.setOnClickListener{
             startActivity(Intent(this,editprofileActivity::class.java).putExtra("email",send))
         }
+        binding.btnArticle.setOnClickListener{
+            startActivity(Intent(this,artikeActivity::class.java).putExtra("email",send))
+        }
 
         binding.satu.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=yF-3Ho42yzw&list=PLCDGzSRUHf-Gvhnt6fBH0fUtv32Id6xx_&index=3&pp=iAQB")))

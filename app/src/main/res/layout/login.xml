@@ -154,7 +154,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginBottom="50dp"
-                    android:text="Lupa Akun?"
+                    android:text="PRODUCE BY LEARN AND CODE"
                     android:textColor="@color/biru"
                     android:textStyle="bold"></TextView>
 

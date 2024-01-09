@@ -41,6 +41,9 @@ class courseActivity : ComponentActivity() {
         binding.btnProfil.setOnClickListener{
             startActivity(Intent(this,editprofileActivity::class.java).putExtra("email",send))
         }
+        binding.btnArticle.setOnClickListener{
+            startActivity(Intent(this,artikeActivity::class.java).putExtra("email",send))
+        }
 
         binding.satu.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=WtBF_-pLrjE&list=PLZS-MHyEIRo4Ze0bbGB1WKBSNMPzi-eWI&ab_channel=KelasTerbuka")))

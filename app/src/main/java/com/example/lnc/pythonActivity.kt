@@ -38,6 +38,9 @@ class pythonActivity : ComponentActivity() {
         binding.btnProfil.setOnClickListener{
             startActivity(Intent(this,editprofileActivity::class.java).putExtra("email",send))
         }
+        binding.btnArticle.setOnClickListener{
+            startActivity(Intent(this,artikeActivity::class.java).putExtra("email",send))
+        }
 
         binding.satu.setOnClickListener {
             startActivity(

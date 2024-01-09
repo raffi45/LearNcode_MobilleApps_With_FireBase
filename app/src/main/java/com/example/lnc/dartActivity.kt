@@ -37,6 +37,9 @@ class dartActivity : ComponentActivity() {
         binding.btnProfil.setOnClickListener{
             startActivity(Intent(this,editprofileActivity::class.java).putExtra("email",send))
         }
+        binding.btnArticle.setOnClickListener{
+            startActivity(Intent(this,artikeActivity::class.java).putExtra("email",send))
+        }
 
         binding.satu.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=Y1rP885vfH0&list=PLe8n__MJ2In6TjMMRTscFBAsul89E-bDX&index=1&pp=iAQB")))

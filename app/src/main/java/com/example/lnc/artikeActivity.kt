@@ -24,6 +24,10 @@ class artikeActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        val email = intent.getStringExtra("email")
+
+        val send : String = email.toString()
+
         binding.new1.setOnClickListener{
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.cnnindonesia.com/teknologi/20240102133635-190-1044315/4-cara-mengganti-akun-google-di-ponsel-android")))
         }
@@ -38,6 +42,15 @@ class artikeActivity : ComponentActivity() {
         }
         binding.news5.setOnClickListener{
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.cnnindonesia.com/teknologi/20240105183633-192-1045854/kisah-pilu-remaja-diperkosa-virtual-di-dunia-metaverse-traumanya-riil")))
+        }
+
+
+
+        binding.btnHome.setOnClickListener{
+            startActivity(Intent(this,homeActivity::class.java).putExtra("email",send))
+        }
+        binding.btnProfil.setOnClickListener{
+            startActivity(Intent(this,editprofileActivity::class.java).putExtra("email",send))
         }
 
 
