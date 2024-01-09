@@ -309,12 +309,12 @@
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="120dp"
         app:layout_constraintBottom_toBottomOf="@+id/scrollView3">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_gravity="bottom"
             android:backgroundTint="@color/biru"
             android:background="@drawable/button_rounded"
@@ -338,7 +338,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="27dp"
                         android:layout_marginTop="5dp"
-                        app:srcCompat="@drawable/baseline_home_24" />
+                        android:src="@drawable/baseline_home_24" />
 
                     <TextView
                         android:id="@+id/txthome"
@@ -359,7 +359,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="27dp"
                         android:layout_marginTop="5dp"
-                        app:srcCompat="@drawable/baseline_newspaper_24" />
+                        android:src="@drawable/baseline_newspaper_24" />
 
                     <TextView
                         android:id="@+id/txtarticle"
@@ -380,7 +380,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="27dp"
                         android:layout_marginTop="5dp"
-                        app:srcCompat="@drawable/baseline_account_circle_24" />
+                        android:src="@drawable/baseline_account_circle_24" />
 
                     <TextView
                         android:id="@+id/txtprofil"

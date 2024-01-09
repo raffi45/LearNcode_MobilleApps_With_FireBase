@@ -62,47 +62,58 @@ class homeActivity : ComponentActivity() {
 
         auth = FirebaseAuth.getInstance()
 
+
+
         binding.imageView.setOnClickListener{
             startActivity(Intent(this,editprofileActivity::class.java).putExtra("email",send))
         }
         binding.logoCpp.setOnClickListener {
-            val intent = Intent(this, courseActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, courseActivity::class.java).putExtra("email",send))
+
         }
         binding.php.setOnClickListener {
-            val intent = Intent(this, phpActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, phpActivity::class.java).putExtra("email",send))
+
+        }
+
+        binding.btnProfil.setOnClickListener{
+            startActivity(Intent(this,editprofileActivity::class.java).putExtra("email",send))
+        }
+        binding.btnArticle.setOnClickListener{
+            startActivity(Intent(this,artikeActivity::class.java).putExtra("email",send))
         }
 
         binding.java.setOnClickListener {
-            val intent = Intent(this, phpActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, phpActivity::class.java).putExtra("email",send))
+
         }
 
         binding.python.setOnClickListener {
-            val intent = Intent(this, pythonActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, pythonActivity::class.java).putExtra("email",send))
+
         }
 
         binding.kotlin.setOnClickListener {
-            val intent = Intent(this, kotlinActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, kotlinActivity::class.java).putExtra("email",send))
+
         }
 
         binding.dart.setOnClickListener {
-            val intent = Intent(this, dartActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, dartActivity::class.java).putExtra("email",send))
+
         }
 
         binding.sql.setOnClickListener {
-            val intent = Intent(this, sqlActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, sqlActivity::class.java).putExtra("email",send))
+
         }
 
         binding.csharp.setOnClickListener {
-            val intent = Intent(this, ccActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, ccActivity::class.java).putExtra("email",send))
+
         }
+
+
 
 
 

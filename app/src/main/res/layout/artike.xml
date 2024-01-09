@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Judul Halaman -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar Berita"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:background="@color/biru"
+            android:textColor="@color/white"/>
+
+        <!-- Daftar Berita -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/textViewTitle"
+            android:padding="16dp"
+           >
+
+            <!-- Item 1 -->
+            <LinearLayout
+                android:id="@+id/new1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_marginBottom="5dp">
+
+                <!-- Gambar Berita -->
+                <ImageView
+                    android:id="@+id/imageViewNews1"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/news2" />
+
+                <!-- Judul Berita -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 Cara Mengganti Akun Google di Ponsel Android"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <!-- Isi Berita -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jakarta, CNN Indonesia -- Cara mengganti akun Google di ponsel Android bisa dilakukan dengan mudah. Pengguna bisa menerapkan cara ini melalui pengaturan, aplikasi, dan lainnya."
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+<!--                item-->
+            <LinearLayout
+                android:id="@+id/news2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_marginBottom="5dp">
+
+                <!-- Gambar Berita -->
+                <ImageView
+                    android:id="@+id/imageViewNews2"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/news3" />
+
+                <!-- Judul Berita -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cara Mengajukan Ganti Rugi dari Google, Simak Langkahnya"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <!-- Isi Berita -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jakarta, CNN Indonesia -- Google milik Alphabet, perusahaan teknologi Amerika Serikat, sepakat untuk menyelesaikan gugatan yang mengklaim mereka secara diam-diam melacak jutaan pengguna internet"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <!--                item-->
+            <LinearLayout
+                android:id="@+id/news3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_marginBottom="5dp">
+
+                <!-- Gambar Berita -->
+                <ImageView
+                    android:id="@+id/imageViewNews3"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nes4" />
+
+                <!-- Judul Berita -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mengingat Kebocoran Data Kemenhan yang Disinggung Anies dalam Debat"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <!-- Isi Berita -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jakarta, CNN Indonesia -- Calon presiden nomor urut 1 Anies Baswedan menyindir Kementerian Pertahanan (Kemenhan) yang sempat dibobol hacker pada 2023 lalu saat debat pilpres ketiga pada Minggu (7/1) malam."
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <!--                item-->
+            <LinearLayout
+                android:id="@+id/news4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_marginBottom="5dp">
+
+                <!-- Gambar Berita -->
+
+                <!-- Judul Berita -->
+                <ImageView
+                    android:id="@+id/imageViewNews4"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/news5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prabowo Trending Topic Buntut Serangan, Netizen Ungkit Memori 2019"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <!-- Isi Berita -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jakarta, CNN Indonesia -- Kata kunci 'Prabowo' masih bertahan di puncak klasemen trending topic Twitter alias X nasional meski debat capres sudah dua hari berlalu. Serangan yang diklaim personal dan pembelaan mendominasi."
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <!--                item-->
+            <LinearLayout
+                android:id="@+id/news5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_marginBottom="5dp">
+
+                <!-- Gambar Berita -->
+                <ImageView
+                    android:id="@+id/imageViewNews5"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/news6" />
+
+                <!-- Judul Berita -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kisah Pilu Remaja Diperkosa Virtual di Dunia Metaverse, Traumanya Riil"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <!-- Isi Berita -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jakarta, CNN Indonesia -- Seorang gadis berusia di bawah 16 tahun di Inggris dilaporkan mengalami pemerkosaan virtual secara beramai-ramai saat bermain game online dunia Metaverse milik Meta, Horizon Worlds."
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+
+            <!-- Item 4, Item 5, dan seterusnya -->
+            <!-- ... -->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

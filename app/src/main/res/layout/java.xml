@@ -315,7 +315,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_gravity="bottom"
-            android:backgroundTint="#f8f8f8"
+            android:backgroundTint="@color/biru"
             android:background="@drawable/button_rounded"
 
             >
@@ -336,7 +336,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="27dp"
                         android:layout_marginTop="5dp"
-                        app:srcCompat="@drawable/home" />
+                        android:src="@drawable/home" />
 
                     <TextView
                         android:id="@+id/txthome"
@@ -357,7 +357,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="27dp"
                         android:layout_marginTop="5dp"
-                        app:srcCompat="@drawable/news" />
+                        android:src="@drawable/news" />
 
                     <TextView
                         android:id="@+id/txtarticle"
@@ -378,7 +378,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="27dp"
                         android:layout_marginTop="5dp"
-                        app:srcCompat="@drawable/icon1" />
+                        android:src="@drawable/icon1" />
 
                     <TextView
                         android:id="@+id/txtprofil"

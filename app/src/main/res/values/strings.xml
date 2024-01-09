@@ -16,4 +16,5 @@
     <string name="title_activity_kotlin">kotlinActivity</string>
     <string name="title_activity_dart">dartActivity</string>
     <string name="title_activity_cc">ccActivity</string>
+    <string name="title_activity_artike">artikeActivity</string>
 </resources>

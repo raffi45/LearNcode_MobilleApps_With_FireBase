@@ -27,6 +27,17 @@ class ccActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        val email = intent.getStringExtra("email")
+
+        val send : String = email.toString()
+
+        binding.btnHome.setOnClickListener{
+            startActivity(Intent(this,homeActivity::class.java).putExtra("email",send))
+        }
+        binding.btnProfil.setOnClickListener{
+            startActivity(Intent(this,editprofileActivity::class.java).putExtra("email",send))
+        }
+
         binding.satu.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=yF-3Ho42yzw&list=PLCDGzSRUHf-Gvhnt6fBH0fUtv32Id6xx_&index=3&pp=iAQB")))
         }
@@ -47,9 +58,7 @@ class ccActivity : ComponentActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=vQ_LGR--QuQ&list=PLCDGzSRUHf-Gvhnt6fBH0fUtv32Id6xx_&index=7&pp=iAQB")))
         }
 
-        binding.btnHome.setOnClickListener{
-            startActivity(Intent(this,homeActivity::class.java))
-        }
+
     }
 }
 

@@ -26,6 +26,16 @@ class phpActivity : ComponentActivity() {
         binding = PhpBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+        val email = intent.getStringExtra("email")
+
+        val send : String = email.toString()
+
+        binding.btnHome.setOnClickListener{
+            startActivity(Intent(this,homeActivity::class.java).putExtra("email",send))
+        }
+        binding.btnProfil.setOnClickListener{
+            startActivity(Intent(this,editprofileActivity::class.java).putExtra("email",send))
+        }
 
         binding.satu.setOnClickListener {
             startActivity(
